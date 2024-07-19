@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/gameshop.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>games shop</h1>
+    <nav>
+      <ul>
+        <a href="#">sobre a loja</a>
+        <a href="#">contato</a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="loja">
+      <div id="imagem">
+      </div>
+      <div id="descricao">
+        <h2>sobre a loja</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae beatae modi numquam consequatur expedita molestias sequi, optio, eligendi architecto, quas deserunt. Fugiat labore a magni sunt, aliquid similique. Aspernatur, tempora.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quaerat ipsam rem eligendi obcaecati velit perferendis iure provident commodi ea accusamus assumenda dicta doloribus, alias est doloremque. Quia, dolores cum!</p>
+        <aside id="pai">
+          <div id="nintendo" class="item">
+          </div>
+          <div id="xbox" class="item">
+          </div>
+          <div id="play" class="item">
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section id="saibamais">
+      <div id="contato">
+        <h2>contato</h2>
+        <h3>fale conosco</h3>
+        <form action="cadastro.php" method="post">
+          <p>
+            <input type="text" name="nome" id="inome" placeholder="Seu nome" autocomplete="username" minlength="3" maxlength="20" required>
+            <label for="inome">Nome</label>
+          </p>
+          <p>
+            <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" required>
+            <label for="iemail">Email</label>
+          </p>
+          <p>
+            <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4,5}-[0-9]{4}$" placeholder="Seu telefone (opcional)">
+            <label for="itel">Telefone</label>
+          </p>
+          <p>
+            <textarea name="msg" id="imsg" placeholder="Sua mensagem" required></textarea>
+          </p>
+          <p>
+            <input type="submit" value="Enviar">
+          </p>
+        </form>
+      </div>
+      <div id="redes-sociais">
+        <h2>nos acompanhe</h2>
+        <!--<ul>
+          <a href="#"><img src="imagens/instagram.png" alt="Instagram Logo"></a>
+          <a href="#"><img src="imagens/facebook.png" alt="Facebook Logo"></a>
+          <a href="#"><img src="imagens/youtube.png" alt="YouTube Logo"></a>
+        </ul>-->
+      </div>
+      <div id="endereco">
+        <h2>venha até nós</h2>
+        <p>Rua JavaScript nº 124, Vila HTML - São Paulo - SP</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Games Shop - Todos os direitos reservados - 2022</p>
+  </footer>
+</body>
+</html>

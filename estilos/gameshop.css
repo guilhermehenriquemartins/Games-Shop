@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --fonteprincipal: "Bungee", sans-serif;
+  --fontesecundaria: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  background-color: #182C61;
+  color: white;
+  height: 4.7em;
+}
+
+header h1 {
+  font: normal bold 2em var(--fonteprincipal);
+  text-transform: uppercase;
+}
+
+nav a {
+  color: white;
+  font: normal normal 1.1em var(--fonteprincipal);
+  text-transform: uppercase;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#loja {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto;
+  width: 95vw;
+  height: 480px;
+}
+
+#imagem {
+  /*border: 1px solid black;*/
+  background: white url(../imagens/loja.jpg) no-repeat;
+  width: 50%;
+}
+
+#descricao {
+  width: 48%;
+}
+
+#descricao h2 {
+  color: #182C61;
+  margin-bottom: 20px;
+  font: normal normal 1.5em var(--fonteprincipal);
+}
+
+#descricao p {
+  font: normal 400 1em var(--fontesecundaria);
+  color: #182C61;
+  margin-bottom: 10px;
+}
+
+#pai {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 25px;
+}
+
+.item {
+  width: 15%;
+}
+
+#nintendo {
+  background: white url(../imagens/nintendo.png) no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+/*#nintendo img {
+  width: 80px;
+}*/
+
+#xbox {
+  background: white url(../imagens/xbox.png) no-repeat;
+  background-size: contain;
+}
+
+#play {
+  background: white url(../imagens/playstation.png) no-repeat;
+  background-size: contain;
+}
+
+footer {
+  background-color: #182C61;
+  color: white;
+  padding: 15px 0px;
+}
+
+footer p {
+  font: normal normal 1em var(--fontesecundaria);
+  margin-left: 30px;
+}
+
+label {
+  display: none;
+}
+
+#saibamais {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  height: 450px;
+  margin: 50px auto 30px auto;
+}
+
+#contato, #redes-sociais, #endereco {
+  width: 25%;
+}
+
+#contato h2 {
+  font: normal normal 1.5em var(--fonteprincipal);
+  color: #182C61;
+  margin-bottom: 15px;
+}
+
+#contato h3 {
+  font: normal normal 1.2em var(--fonteprincipal);
+  color: #182C61;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 180px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  background-color: #182C61;
+  color: white;
+  font: normal normal .85em var(--fonteprincipal);
+  margin-top: 5px;
+  border: none;
+}
+
+#redes-sociais h2 {
+  font: normal normal 1.2em var(--fonteprincipal);
+  color: #182C61;
+  margin-top: 50px;
+}
+
+#endereco {
+  width: 30%;
+}
+
+#endereco h2 {
+  font: normal normal 1.2em var(--fonteprincipal);
+  color: #182C61;
+  margin-top: 50px;
+}
+
+#endereco p {
+  font: normal normal 1em var(--fontesecundaria);
+  margin-top: 15px;
+  color: #182C61;
+}
